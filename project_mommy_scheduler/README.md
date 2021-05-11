@@ -29,12 +29,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project aims at building an online game that both kids and adults can enjoy. It focuses on users ability to recognize commonly used words by the number of leters in the words. Users who are able to recognize words by the minimum information available on the game screen generally tend to be successful in the game. 
-
-Key features of the game include:
-* Interesting
-* Encourages to learn spelling
-* Develops mental process
+This project aims at building an online scheduler for Mommies who struggle to complete all their planned activities and find time for themselved
 
 ## Built With
  
@@ -45,7 +40,7 @@ The game is developed using the following:
 
 ## Getting Started
 
-To play the game;
+To start the scheduler;
 
 ### Prerequisites
 1. Visual Studio 
@@ -55,20 +50,20 @@ To play the game;
 Clone the Git repository to your local system <br>
 
 ```bash
-    git clone https://github.com/anbu-j/mystery_sentence_game.git 
+    git clone https://github.com/anbu-j/project_mommy_scheduler.git 
 ```
 
 ## Usage
-Game starts when the user clicks on the button "**Start Game**". The game ends automatically after 5 rounds. If the user wants to replay, the "**Restart**" button can be utilised. 
+<!--Game starts when the user clicks on the button "**Start Game**". The game ends automatically after 5 rounds. If the user wants to replay, the "**Restart**" button can be utilised. 
 
  The game screen is split into 3 sections 
  * **PLAYER CONSOLE :** shows the player turns, status of play (*future feature*), Start and Restart buttons.
  * **GAME CONSOLE :** shows the "**Mystery Sentence**" to be predicted, a keyboard to predict a letter of the mystery sentence and a shortcut button "**Predict the Sentence**" to winning a round of "**Mystery Sentence**"
- * **SCORE BOARD :** shows the "**Score**" and "**Turns left**" for each player during a round of "**Mystery Sentence**". After each round, the winner of the round gets all the points. Maximum points scored in all five rounds determines the winner of the game.
+ * **SCORE BOARD :** shows the "**Score**" and "**Turns left**" for each player during a round of "**Mystery Sentence**". After each round, the winner of the round gets all the points. Maximum points scored in all five rounds determines the winner of the game.-->
 
 
 ## Features
-1. Turns of each player is highlighted with a red background.
+<!--1. Turns of each player is highlighted with a red background.
 2. The selection made by the user on the on-screen keyboard turns the color of the key to
     * "**Golden**" upon matching a letter in the mystery sentence 
     * "**Grey**" upon not matching a letter in the mystery sentence.
@@ -76,10 +71,10 @@ Game starts when the user clicks on the button "**Start Game**". The game ends a
 4. Users are alerted of the game progress as alerts during the game.
 5. Users can restart the game at any time during the play, using the button "**Restart**"
 6. A winner is declared after 5 rounds of play.
-7. Automaticaly determine the number of turns based on the mystery sentence.
+7. Automaticaly determine the number of turns based on the mystery sentence.-->
 
 ## Roadmap
-1. Display in game messages in the "**Game Message**" section of the Players Console.
+<!--1. Display in game messages in the "**Game Message**" section of the Players Console.
 2. Add Screenshots of the game to README file
 
 ## Technical Details
@@ -101,11 +96,11 @@ Game starts when the user clicks on the button "**Start Game**". The game ends a
 16. **pointsCalc** - Function calculates the points after each user selection on the on screen keyboard, upon calling.
 17. **resultMessage**- Function displays the alert message notifying players about the status of play, upon calling.
 18. **scoreBoard** - Functions prints the scoreboard in the game screen during play, upon calling.
-19. **endGame**- Function clears the player in round scoreboard, after each round, upon calling.
+19. **endGame**- Function clears the player in round scoreboard, after each round, upon calling.-->
 
 ## Bugs
-1. Points are displayed after the alert message.
-2. Repeated click on an already selected letter leads to losing a chance.
+<!--1. Points are displayed after the alert message.
+2. Repeated click on an already selected letter leads to losing a chance.-->
 ## Contact
 Email - anbuelza_cherian@yahoo.com <br>
 LinkedIn - [linkedin-url]: https://linkedin.com/in/anbu-joselin
