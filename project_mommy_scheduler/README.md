@@ -1,4 +1,4 @@
-# Mystery Sentence Game
+# Mommy Scheduler
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
@@ -29,7 +29,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project aims at building an online scheduler for Mommies who struggle to complete all their planned activities and find time for themselved
+This project aims at building an online scheduler for Mommies who struggle to complete all their planned activities and find time for themselves
 
 ## Built With
  

@@ -5,12 +5,12 @@ h1{
 }
 .Container1{
 border-style: solid;
-border-color: red;
+border-color:lightskyblue;
 }
 .InitialSetup{
   width:min-content;
   border-style: dashed;
-  border-color: saddlebrown;
+  border-color: lightseagreen;
 }
 .labels{
   display: flex;
@@ -18,10 +18,30 @@ border-color: red;
   align-items: center;
 }
 .labelText {
-  width:min-content;
+  width: 100px;
+  overflow-x: scroll;
 }
 
 .printChallenges {
   display: flex;
   justify-content: space-evenly;
+}
+
+.labelHeader {
+  width: 100px;
+  text-align: center;
+  background-color:lightblue;
+}
+
+.printActivities {
+  display: flex;
+  justify-content: space-around;
+}
+.printNonActivities {
+  border-style: dashed;
+  border-color: lightseagreen;
+}
+.printSelActivities {
+  border-style: dashed;
+  border-color: lightseagreen;
 }

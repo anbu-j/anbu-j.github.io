@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-function MommyReview(props) {
-    return (
-        <div>
-            <h1> Review Schedule </h1> 
-        </div>
-    );
+class MommyReview extends Component {
+    render() {
+        return (
+            <div>
+                <h1> Review Schedule </h1> 
+            </div>
+        );
+    }
 }
 
 export default MommyReview;

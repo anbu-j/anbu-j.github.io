@@ -29,6 +29,7 @@ class MommyScheduler extends Component {
                                 {/*<Nav.Link href='/'>Mommy Scheduler</Nav.Link>*/}
                                 <Nav.Link href='/MommyChallenges'>Mommy Challenges</Nav.Link>
                                 <Nav.Link href='/MommyActivities'>Mommy Activities</Nav.Link>
+                                <Nav.Link href='/MommyReview'>Schedule Review</Nav.Link>
                             </Nav>
                     {/*<Link to='/MommyChallenges'>Mommy Challenges</Link>
                     <Link to='/MommyActivities'>Mommy Activities</Link>

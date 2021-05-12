@@ -3,6 +3,9 @@
 import React, { Component } from 'react';
 import challenges from '../data/challengedata';
 import {Button} from 'react-bootstrap'
+//import { useHistory } from 'react-router';
+
+
 
 class MommyChallenges extends Component {
     constructor(props){
@@ -15,6 +18,10 @@ class MommyChallenges extends Component {
         }
     }
 
+    /*passState(){
+        const history = useHistory();
+    }*/
+
     handleChange=(eventToBeChanged)=>{
         eventToBeChanged.preventDefault();
         this.setState(
@@ -23,24 +30,34 @@ class MommyChallenges extends Component {
             }
         )
     }
-    statusUnSelected=(itemInTheList)=>{
+    statusUnSelected(itemInTheList,i){
+            let currArray = this.state.challenge
+            let newVal = currArray[i]
+            newVal.isSelected = false
+            currArray[i] =newVal
             this.setState(
                 {
-                    [itemInTheList.isSelected.value]:false
+                    currArray
                 }
             )
         }    
-    statusSelected=(itemInTheList)=>{
+    statusSelected(itemInTheList,i) {
+            let currArray = this.state.challenge
+            let newVal = currArray[i]
+            newVal.isSelected = true
+            currArray[i] =newVal
             this.setState(
                 {
-                    [itemInTheList.isSelected.value]:true
+                    currArray
                 }
             )
+        
         }     
         
     
     
     render() {
+        
         return (
             <div>
                 <div>
@@ -54,8 +71,9 @@ class MommyChallenges extends Component {
                     <input
                         id="isChallenge"
                         type="checkbox"
-                        checked='false'
-                      //  onChange={this.onChageAction.bind(this)}
+                        onChange={()=>this.statusSelected(itemInTheList,i)}
+                        //checked={this.state.checked ? 'checked': null}
+                       //onChange={this.setState({checked: !this.state.checked})}
                     > 
                     </input>
                     <input
@@ -92,6 +110,8 @@ class MommyChallenges extends Component {
                     <input
                         name="isChallenge"
                         type="checkbox"
+                        checked={true}
+                        onChange={()=>this.statusUnSelected(itemInTheList,i)}
                     > 
                     </input>
                     <input
@@ -117,6 +137,10 @@ class MommyChallenges extends Component {
                 <Button variant="outline-primary"> Restore Challenge</Button>
                 </div>
                 </div>
+                <Button 
+                variant="outline-primary"
+                //onClick={()=>history.push("/MommyReview",{from:"MommyChallenges"})}
+                >Lock Challenges</Button>
             </div>
             
         );

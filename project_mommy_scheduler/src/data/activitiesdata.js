@@ -16,7 +16,7 @@ const activities = [
         "priority":1
     } ,
     {
-        "isSelected":false,
+        "isSelected":true,
         "isMandatory":false,
         "isDailyTask":true,
         "name":"Kids Education",
